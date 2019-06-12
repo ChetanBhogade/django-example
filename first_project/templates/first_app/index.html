@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends "first_app/base.html" %}
+    {% block body_block %}
+        <h1>Welcome to the 'index.html' page.</h1>
+        <h2>This is the home page our website</h2>
+        <div class="jumbotron">
+            {{ name }}
+            <!-- <h5>{{name | cut:"Bhogade"}}</h5><br> -->
+            <!-- <h5>{{number | add:'55'}}</h5> -->
+        </div>
+    {% endblock %}
